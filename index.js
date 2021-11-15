@@ -3,7 +3,7 @@ const fs = require('fs')
 const client = new Client({
     disableEveryone: true
 })
-const config = require('./config.json')
+const config = require('./config')
 const prefix = config.prefix
 const status = config.status
 const token = config.token
